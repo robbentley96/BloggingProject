@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EFGetStarted.BloggingContext">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAAAAEBAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BloggingContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EFGetStarted.Blog">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAABAAAEBAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>BloggingContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Posts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EFGetStarted.Post">
+    <Position X="11.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAgABAEEEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BloggingContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EFGetStarted.User">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAwAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BloggingContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Blogs" />
+      <Property Name="Pets" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EFGetStarted.Pet">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAEAAABAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BloggingContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
